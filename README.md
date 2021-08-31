@@ -12,3 +12,6 @@ referencing for CSS, JS, etc. in all of the files if I went back and did that so
 Anyways yeah I made this in around 2019, during I believe the second semester of my freshman year. IIRC it was around
 10,000 lines of code altogether if you cheat and count the CSS as well as the SCSS. Otherwise it's like 8,800 or something.
 Still pretty neat.
+
+
+Oh yeah also totally not secure in any way, purely for fun. I barely did sanitizing or anything with the form submission and stuff.
