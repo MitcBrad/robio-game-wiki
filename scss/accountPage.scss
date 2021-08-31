@@ -1,0 +1,190 @@
+.loginHolder{
+  height: 65%;
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+
+
+  .rightSideDivider{
+    height: 1px;
+    opacity: 50%;
+    background-color: #343434;
+    width: 98%;
+    margin-top: 5px;
+    float:left;
+
+
+  }
+
+  .newCustomers{
+    font-size: 20px;
+    padding-top: 5px;
+    font-family: arial;
+
+  }
+
+  .floatedTextRight{
+    float: left;
+    color: #444;
+    font-family: arial;
+    font-size: small;
+    margin-top: 15px;
+    padding-left: 12px;
+    padding-right: 5px;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  input{
+    height: 35px;
+    width: 270px;
+    border: 1px solid lightgray;
+
+  }
+
+  .registeredCustomers{
+    font-family: arial;
+    font-size: 19px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 63px;
+
+  }
+
+  .loginInner{
+    display: revert;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d8d6d4;
+
+
+
+  }
+}
+.innerLogRight{
+  height: 100%;
+  width: 50%;
+  float: right;
+  font-family: arial;
+
+
+  .dividerMargin{
+    margin-top: 79px;
+
+  }
+
+  .loginButton{
+    width: 180px;
+    height: 35px;
+    margin-top: 12px;
+    background-color: #b90000;
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 220px;
+    padding-bottom: 5px;
+    //
+
+
+    .loginText{
+      padding-top: 5px;
+    }
+  }
+
+
+  .loginStuff{
+    font-size: small;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    //
+
+
+    a{
+      color: red;
+      font-weight: bolder;
+    }
+  }
+}
+.innerLogLeft{
+  height: 100%;
+  width: 50%;
+  float: left;
+  font-family: arial;
+
+
+  .dividerMargin{
+    margin-top: 79px;
+
+  }
+
+  .loginButton{
+    width: 180px;
+    height: 35px;
+    margin-top: 12px;
+    background-color: #b90000;
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 220px;
+    padding-bottom: 5px;
+    //
+
+
+    .loginText{
+      padding-top: 5px;
+    }
+  }
+
+
+  .loginStuff{
+    font-size: small;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+
+
+    a{
+      color: red;
+      font-weight: bolder;
+    }
+  }
+}
+.leftSideDivider{
+  height: 1px;
+  opacity: 50%;
+  background-color: #343434;
+  width: 94%;
+  margin-top: 5px;
+  float:left;
+  margin-left: 15px;
+
+
+}
+.sideBySide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 6px;
+
+  p{
+    width: 80px;
+  }
+  input{
+    margin-left: 5px;
+
+  }
+}

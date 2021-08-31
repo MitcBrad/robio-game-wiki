@@ -1,0 +1,201 @@
+.sim {
+  min-width: 100%;
+  height: 363px;
+  background-color: #7d7d7b;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .tacoGreen{
+    margin-top: 12px;
+    font-family: arial;
+    color: #5fd23d;
+  }
+  .tacoBlue{
+    margin-top: 12px;
+    font-family: arial;
+    color: #001eff;
+  }
+  .tacoGray{
+    margin-top: 12px;
+    font-family: arial;
+    color: #e0e0e0;
+  }
+  .tacoRed{
+    margin-top: 12px;
+    font-family: arial;
+    color: red;
+  }
+
+  .similarHolder {
+    width: 80%;
+    height: 282px;
+    border: 3px solid rgb(240, 239, 69);
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-content: space-between;
+
+    .miniCards{
+      position: relative;
+      width: 180px;
+      max-height: 275px;
+      min-height: 275px;
+      background-color: $cardBlue;
+      padding: 0px 5px 0px 5px;
+      border-radius: 30px;
+      display: flex;
+
+
+      .miniGCI{
+        background-color: $cardBlue;
+        height: 266px;
+        margin-top: 4px;
+        width: 100%;
+        border-radius: 32px;
+
+      .miniImageHolder{
+        height: 225px;
+        min-width: 170px;
+        margin-top: 15px;
+        margin: 0 auto;
+        img{
+          border-radius: 30px;
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .miniTextHolder{
+        margin-top: 12px;
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: bold;
+
+
+      }
+    }}
+
+
+  }
+}
+.spacer{
+  width: 12px;
+  height: 100%;
+}
+.marquee{
+
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(10%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+
+.comments{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #e0e0e0;
+  min-height: 250px;
+  border-radius: 5px;
+
+  .comHeader{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  .label{
+    height: 100%;
+    width: 300px;
+    font-family: Arial;
+    font-size: 16px;
+
+    h1{
+      margin-top: 40px;
+    }
+  }}
+  .commentDivider{
+    height: 2px;
+    background-color: #bebcba;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  textarea{
+    resize: none;
+    width: 70%;
+    margin-top: 20px;
+    height: 80px;
+    padding: 10px;
+  }
+  span{
+  }
+  button{
+    height: 30px;
+  }
+
+
+  .theComments{
+    width: 70%;
+    min-height: 80px;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .comment{
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      min-height: 70px;
+      border: 1px solid dimgray;
+      background-color: $cardBlue;
+      font-family: arial;
+      margin: 5px;
+
+      .poster{
+        font-weight: bolder;
+        font-size: 18px;
+        padding: 7px 0px 0px 7px;
+
+      }
+      .getInLine{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-top: 30px;
+        justify-content: space-evenly;
+
+      .commentContent{
+        font-style: italic;
+        margin-top: 10px;
+
+        p{
+        }
+      }}
+      .timestamp{
+        margin-left: 30px;
+        font-size: 10px;
+        text-align: right;
+        padding: 5px 5px 0px 0px;
+        min-width: 100px;
+      }
+    }
+  }
+
+}

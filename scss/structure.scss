@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.delete{
+  color: red;
+  font-size: 20px;
+}
+
+#plus{
+  color: #e0e0e0;
+  font-size: 250px;
+  padding-left: 10px;
+}
+.create{
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  .createForm{
+    margin: 0 auto;
+    width: 100%;
+    min-height: 20px;
+    margin-top: 100px;
+  }
+
+  .creText{
+    width: 100%;
+    height: 50px;
+    font-family: Bahnschrift;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+  }
+  .createInputs{
+    width: 100%;
+    min-height: 20px;
+
+    textarea{
+      width: 100%;
+      height: 50px;
+      margin-bottom: 25px;
+    }
+
+
+    input{
+      float: left;
+      width: 100%;
+      height: 50px;
+      margin-bottom: 25px;
+    }
+  }
+}
+.genre{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  padding-left: 34%;
+  padding-right: 34%;
+
+  p{
+    margin: 0 auto;
+    font-family: Bahnschrift;
+  }
+
+  select{
+    margin: 0 auto;
+
+  }
+}
+
+.rarity{
+  padding-right: 10px;
+}
+.addVirus{
+  padding: 5px;
+  font-weight: bolder;
+}
+.virusInputs{
+  padding-left: 5px;
+}
+.textarea{
+  padding-top: 15px;
+}
+
+#pls{
+  a{
+    margin-top: 10px;
+  color: blue;
+}}
