@@ -1,0 +1,1135 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.delete {
+  color: red;
+  font-size: 20px; }
+
+#plus {
+  color: #e0e0e0;
+  font-size: 250px;
+  padding-left: 10px; }
+
+.create {
+  width: 50%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .create .createForm {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 20px;
+    margin-top: 100px; }
+  .create .creText {
+    width: 100%;
+    height: 50px;
+    font-family: Bahnschrift;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px; }
+  .create .createInputs {
+    width: 100%;
+    min-height: 20px; }
+    .create .createInputs textarea {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 25px; }
+    .create .createInputs input {
+      float: left;
+      width: 100%;
+      height: 50px;
+      margin-bottom: 25px; }
+
+.genre {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 34%;
+  padding-right: 34%; }
+  .genre p {
+    margin: 0 auto;
+    font-family: Bahnschrift; }
+  .genre select {
+    margin: 0 auto; }
+
+.rarity {
+  padding-right: 10px; }
+
+.addVirus {
+  padding: 5px;
+  font-weight: bolder; }
+
+.virusInputs {
+  padding-left: 5px; }
+
+.textarea {
+  padding-top: 15px; }
+
+#pls a {
+  margin-top: 10px;
+  color: blue; }
+
+.tabHolder {
+  background-color: #7d7d7b;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  margin-left: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  text-align: center; }
+  .tabHolder .cat {
+    background-color: #d8d6d4;
+    min-width: 12%;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding-top: 12px;
+    border-radius: 20px; }
+    .tabHolder .cat:hover {
+      background: -webkit-linear-gradient(135deg, #ee9404, #e72200, #001eff, #f9fffb);
+      background: -o-linear-gradient(135deg, #ee9404, #e72200, #001eff, #f9fffb);
+      background: linear-gradient(-45deg, #ee9404, #e72200, #001eff, #f9fffb);
+      background-size: 500% 500%;
+      -webkit-animation: Gradient 2s ease infinite;
+      -moz-animation: Gradient 2s ease infinite;
+      animation: Gradient 2s ease infinite; }
+      .tabHolder .cat:hover a {
+        color: white; }
+    .tabHolder .cat a {
+      font-weight: bolder;
+      font-family: Calibri;
+      text-decoration: none;
+      color: #000000;
+      width: 100%;
+      height: 100%; }
+  .tabHolder span:hover {
+    background-color: dimgray; }
+  .tabHolder .currentPage {
+    background-color: #fff; }
+    .tabHolder .currentPage .i {
+      color: #444; }
+    .tabHolder .currentPage a {
+      color: #444; }
+  .tabHolder .homeButton {
+    width: 55px;
+    margin: 0 auto; }
+    .tabHolder .homeButton a:hover {
+      color: #fff; }
+  .tabHolder .homeCleaning {
+    width: 180px;
+    margin: 0 auto; }
+  .tabHolder .kitchen {
+    width: 185px;
+    margin: 0 auto; }
+  .tabHolder .fitness {
+    width: 120px;
+    margin: 0 auto; }
+  .tabHolder .well {
+    width: 145px;
+    margin: 0 auto; }
+  .tabHolder .hair {
+    width: 160px;
+    margin: 0 auto; }
+  .tabHolder .diy {
+    width: 85px;
+    margin: 0 auto; }
+  .tabHolder .kids {
+    width: 90px;
+    margin: 0 auto; }
+  .tabHolder .amazing {
+    width: 180px;
+    margin: 0 auto; }
+  .tabHolder .tab {
+    margin: 0 auto;
+    margin-top: 15px;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: 14px;
+    height: 100%; }
+
+.headerHolder {
+  height: 160px;
+  background-color: #7d7d7b;
+  width: 1300px;
+  margin: 0 auto;
+  border-left: 3px solid #5fd23d;
+  border-right: 3px solid #5fd23d;
+  border-top: 3px solid #5fd23d;
+  border-bottom: 0px;
+  border-style: groove; }
+  .headerHolder .header {
+    width: 96.9%;
+    margin: 0 auto; }
+    .headerHolder .header .headerContentHolder {
+      width: 89%;
+      margin: 0 auto;
+      padding: 10px 0px 5px 0px;
+      display: revert; }
+      .headerHolder .header .headerContentHolder .logoImage {
+        margin-left: -5px;
+        width: 200px; }
+        .headerHolder .header .headerContentHolder .logoImage img {
+          height: 85px;
+          width: 95px; }
+      .headerHolder .header .headerContentHolder .rightSideHeader {
+        height: 40px;
+        width: 584px;
+        float: right;
+        margin-top: -75px;
+        display: block;
+        color: dimgray;
+        font-family: arial; }
+        .headerHolder .header .headerContentHolder .rightSideHeader .accountStuff {
+          float: right;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          min-width: 10px;
+          min-height: 5px; }
+        .headerHolder .header .headerContentHolder .rightSideHeader .cartStuff {
+          float: right;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          min-width: 10px;
+          min-height: 5px;
+          margin-right: 10px; }
+        .headerHolder .header .headerContentHolder .rightSideHeader #cartH {
+          float: right;
+          font-size: 14px;
+          font-weight: normal;
+          margin-left: 4px;
+          color: #ffffff; }
+        .headerHolder .header .headerContentHolder .rightSideHeader #account {
+          float: right;
+          margin-right: 20px;
+          font-size: 14px;
+          font-weight: normal; }
+          .headerHolder .header .headerContentHolder .rightSideHeader #account a {
+            color: #ffffff; }
+        .headerHolder .header .headerContentHolder .rightSideHeader #cart {
+          float: right;
+          color: #fff; }
+        .headerHolder .header .headerContentHolder .rightSideHeader #search {
+          float: right;
+          font-size: 15px;
+          margin-right: 13px;
+          margin-top: -37px; }
+        .headerHolder .header .headerContentHolder .rightSideHeader .input {
+          float: right;
+          width: 350px;
+          height: 37px;
+          border: none;
+          margin-top: -47px;
+          font-size: 13px;
+          font-weight: lighter; }
+        .headerHolder .header .headerContentHolder .rightSideHeader p {
+          margin-top: 10px;
+          text-align: left;
+          font-weight: bolder;
+          font-size: 18px;
+          color: #fff; }
+          .headerHolder .header .headerContentHolder .rightSideHeader p a {
+            color: #b90000;
+            text-decoration: none; }
+
+.content {
+  width: 1300px;
+  min-height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e0e0e0;
+  border-left: 3px solid #5fd23d;
+  border-right: 3px solid #5fd23d;
+  border-top: 0px;
+  border-style: groove; }
+
+.catalog {
+  margin: 0 auto;
+  display: block;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 35px;
+  background-color: #34332e;
+  text-align: center;
+  min-height: 30%;
+  width: 100%; }
+
+.catalogGamePage {
+  margin: 0 auto;
+  display: block;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 35px;
+  background-color: #34332e;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border: 3px solid #5fd23d;
+  border-top: 0px;
+  border-style: groove; }
+
+#gameCardCreate {
+  float: left;
+  width: 230px;
+  height: 350px;
+  background-color: #bebcba;
+  padding: 5px;
+  padding-left: 5px;
+  margin: 7px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  #gameCardCreate:hover {
+    background: -webkit-linear-gradient(45deg, #26ff07, #e4e736, #001eff, #24ff00);
+    background: -o-linear-gradient(45deg, #26ff07, #e4e736, #001eff, #24ff00);
+    background: linear-gradient(45deg, #26ff07, #e4e736, #001eff, #24ff00);
+    background-size: 400% 100%;
+    -webkit-animation: Gradient 2s ease infinite;
+    -moz-animation: Gradient 2s ease infinite;
+    animation: Gradient 2s ease infinite; }
+  #gameCardCreate .gameCardInner {
+    width: 220px;
+    height: 340px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #bebcba;
+    padding: 2px; }
+    #gameCardCreate .gameCardInner img {
+      border-radius: 20px; }
+
+.hover:hover {
+  color: white; }
+
+.gameCard {
+  float: left;
+  width: 230px;
+  height: 350px;
+  background-color: #bebcba;
+  padding: 5px;
+  padding-left: 5px;
+  margin: 7px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .gameCard:hover {
+    background: -webkit-linear-gradient(45deg, #26ff07, #e4e736, #001eff, #24ff00);
+    background: -o-linear-gradient(45deg, #26ff07, #e4e736, #001eff, #24ff00);
+    background: linear-gradient(45deg, #26ff07, #e4e736, #001eff, #24ff00);
+    background-size: 400% 100%;
+    -webkit-animation: Gradient 2s ease infinite;
+    -moz-animation: Gradient 2s ease infinite;
+    animation: Gradient 2s ease infinite; }
+  .gameCard .gameCardInner {
+    width: 220px;
+    height: 340px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #bebcba;
+    padding: 1.5px; }
+    .gameCard .gameCardInner img {
+      border-radius: 30px; }
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+#searchbar {
+  padding: 10px; }
+
+.priceHolder {
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.rarityUncommon {
+  color: green; }
+
+.rarityRare {
+  color: blue; }
+
+.rarityCommon {
+  color: black; }
+
+.rarityUnknown {
+  color: red; }
+
+.imageHolder {
+  height: 275px;
+  width: 218px;
+  margin-left: -1px;
+  margin-top: -1px; }
+  .imageHolder img {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%; }
+
+.textHolder {
+  margin-top: 5px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
+.gamePage {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: #bebcba;
+  padding: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin: 7px;
+  border: 3px solid #5fd23d;
+  border-radius: 15px;
+  border-style: groove;
+  text-align: center; }
+
+.contentGamePage {
+  width: 1300px;
+  min-height: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e0e0e0;
+  align-contents: center; }
+  .contentGamePage .priceHolderGP {
+    color: darkred;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: bolder;
+    margin-bottom: 30px; }
+
+.imageHolderGP {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+  .imageHolderGP img {
+    height: 300px;
+    width: 240px;
+    border-radius: 15px; }
+
+.textHolderGP {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bolder;
+  margin-bottomm: 20px; }
+
+.descriptionGP {
+  width: 70%;
+  min-height: 20%;
+  text-align: center;
+  font-family: arial;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.buyNow {
+  margin-bottom: 30px;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bolder; }
+
+.editHolder {
+  width: 100%;
+  min-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+  .editHolder .editButton {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin: 0 auto; }
+    .editHolder .editButton a {
+      margin: 0 auto; }
+
+.loginHolder {
+  height: 65%;
+  width: 100%;
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .loginHolder .rightSideDivider {
+    height: 1px;
+    opacity: 50%;
+    background-color: #343434;
+    width: 98%;
+    margin-top: 5px;
+    float: left; }
+  .loginHolder .newCustomers {
+    font-size: 20px;
+    padding-top: 5px;
+    font-family: arial; }
+  .loginHolder .floatedTextRight {
+    float: left;
+    color: #444;
+    font-family: arial;
+    font-size: small;
+    margin-top: 15px;
+    padding-left: 12px;
+    padding-right: 5px;
+    width: 100%;
+    text-align: center; }
+  .loginHolder input {
+    height: 35px;
+    width: 270px;
+    border: 1px solid lightgray; }
+  .loginHolder .registeredCustomers {
+    font-family: arial;
+    font-size: 19px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 63px; }
+  .loginHolder .loginInner {
+    display: revert;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d8d6d4; }
+
+.innerLogRight {
+  height: 100%;
+  width: 50%;
+  float: right;
+  font-family: arial; }
+  .innerLogRight .dividerMargin {
+    margin-top: 79px; }
+  .innerLogRight .loginButton {
+    width: 180px;
+    height: 35px;
+    margin-top: 12px;
+    background-color: #b90000;
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 220px;
+    padding-bottom: 5px; }
+    .innerLogRight .loginButton .loginText {
+      padding-top: 5px; }
+  .innerLogRight .loginStuff {
+    font-size: small;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold; }
+    .innerLogRight .loginStuff a {
+      color: red;
+      font-weight: bolder; }
+
+.innerLogLeft {
+  height: 100%;
+  width: 50%;
+  float: left;
+  font-family: arial; }
+  .innerLogLeft .dividerMargin {
+    margin-top: 79px; }
+  .innerLogLeft .loginButton {
+    width: 180px;
+    height: 35px;
+    margin-top: 12px;
+    background-color: #b90000;
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 220px;
+    padding-bottom: 5px; }
+    .innerLogLeft .loginButton .loginText {
+      padding-top: 5px; }
+  .innerLogLeft .loginStuff {
+    font-size: small;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold; }
+    .innerLogLeft .loginStuff a {
+      color: red;
+      font-weight: bolder; }
+
+.leftSideDivider {
+  height: 1px;
+  opacity: 50%;
+  background-color: #343434;
+  width: 94%;
+  margin-top: 5px;
+  float: left;
+  margin-left: 15px; }
+
+.sideBySide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 6px; }
+  .sideBySide p {
+    width: 80px; }
+  .sideBySide input {
+    margin-left: 5px; }
+
+.accountContainer {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #f4f3ff;
+  border-radius: 40px;
+  font-size: 20px;
+  font-family: Calibri;
+  padding: 40px; }
+  .accountContainer button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid black; }
+  .accountContainer input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    min-width: 10%; }
+  .accountContainer .accountEdit {
+    color: red;
+    font-weight: bolder;
+    margin-top: 15px;
+    border: 3px solid black;
+    background-color: lightgray; }
+  .accountContainer .accountInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto; }
+
+.accountRows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 50px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding-top: 10px; }
+
+.labeling {
+  font-weight: bolder;
+  float: left;
+  margin-right: 15px;
+  padding-left: 10px; }
+
+.genericImage {
+  height: 150px;
+  width: 150px;
+  margin: 15px;
+  border: 3px solid darkgray;
+  text-align: center;
+  background-color: #f03d38; }
+  .genericImage .nameLetters {
+    margin-top: 30px;
+    font-size: 60px;
+    font-family: Rockwell;
+    color: #eae8e5;
+    text-shadow: #000 3px  1px; }
+
+.cartHolder {
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 50px;
+  border: 1px solid black;
+  background-color: #bebcba; }
+  .cartHolder .columnTitles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    font-family: Bahnschrift;
+    font-weight: bolder;
+    font-size: 20px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    padding: 5px; }
+    .cartHolder .columnTitles p {
+      height: 100%;
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+  .cartHolder .cartRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black; }
+  .cartHolder .cIH {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+    .cartHolder .cIH .cartImg {
+      height: 136px;
+      padding: 5px;
+      width: 140px;
+      overflow: hidden;
+      image-size: cover;
+      margin: 0 auto; }
+      .cartHolder .cIH .cartImg img {
+        height: 100%;
+        width: 100%; }
+  .cartHolder .cIN {
+    padding: 5px;
+    width: 100%;
+    height: 140px;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    font-weight: bolder;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .cartHolder .cIN p {
+      width: 100%;
+      margin: 0 auto; }
+  .cartHolder .totals {
+    border: 1px solid black;
+    border-top: 0px;
+    height: 50px;
+    background-color: #878583; }
+    .cartHolder .totals .grand {
+      float: right;
+      width: 300px;
+      height: 100%;
+      margin-right: 86px; }
+      .cartHolder .totals .grand .p {
+        font-family: Bahnschrift;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 80px; }
+      .cartHolder .totals .grand .pe {
+        font-family: Bahnschrift;
+        font-size: 20px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 45px; }
+
+.remove {
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  height: 35px;
+  width: 35px; }
+  .remove a {
+    font-size: 30px;
+    color: red;
+    font-weight: bolder; }
+
+.aboutHeader {
+  font-family: arial;
+  font-weight: bolder;
+  color: #55ab36;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+.division {
+  height: 3px;
+  background-color: black;
+  width: 75%;
+  margin: 0 auto; }
+
+.subheader {
+  font-family: arial;
+  color: #d1cd0c;
+  font-size: 26px;
+  font-weight: bolder;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 20px; }
+
+.subAbout {
+  font-family: arial;
+  color: #d1cd0c;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+.about {
+  line-height: 40px;
+  font-family: arial;
+  color: #55ab36;
+  font-size: 22px;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-weight: bolder; }
+
+.sim {
+  min-width: 100%;
+  height: 363px;
+  background-color: #7d7d7b;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .sim .tacoGreen {
+    margin-top: 12px;
+    font-family: arial;
+    color: #5fd23d; }
+  .sim .tacoBlue {
+    margin-top: 12px;
+    font-family: arial;
+    color: #001eff; }
+  .sim .tacoGray {
+    margin-top: 12px;
+    font-family: arial;
+    color: #e0e0e0; }
+  .sim .tacoRed {
+    margin-top: 12px;
+    font-family: arial;
+    color: red; }
+  .sim .similarHolder {
+    width: 80%;
+    height: 282px;
+    border: 3px solid #f0ef45;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background-color: white;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: justify;
+    align-content: space-between; }
+    .sim .similarHolder .miniCards {
+      position: relative;
+      width: 180px;
+      max-height: 275px;
+      min-height: 275px;
+      background-color: #bebcba;
+      padding: 0px 5px 0px 5px;
+      border-radius: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .sim .similarHolder .miniCards .miniGCI {
+        background-color: #bebcba;
+        height: 266px;
+        margin-top: 4px;
+        width: 100%;
+        border-radius: 32px; }
+        .sim .similarHolder .miniCards .miniGCI .miniImageHolder {
+          height: 225px;
+          min-width: 170px;
+          margin-top: 15px;
+          margin: 0 auto; }
+          .sim .similarHolder .miniCards .miniGCI .miniImageHolder img {
+            border-radius: 30px;
+            height: 100%;
+            width: 100%; }
+        .sim .similarHolder .miniCards .miniGCI .miniTextHolder {
+          margin-top: 12px;
+          font-family: Arial;
+          font-size: 16px;
+          font-weight: bold; }
+
+.spacer {
+  width: 12px;
+  height: 100%; }
+
+.marquee {
+  display: inline-block;
+  -webkit-animation: marquee 10s linear infinite;
+  animation: marquee 10s linear infinite; }
+
+@-webkit-keyframes marquee {
+  from {
+    -webkit-transform: translateX(10%);
+    transform: translateX(10%); }
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@keyframes marquee {
+  from {
+    -webkit-transform: translateX(10%);
+    transform: translateX(10%); }
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+.comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background-color: #e0e0e0;
+  min-height: 250px;
+  border-radius: 5px; }
+  .comments .comHeader {
+    width: 100%;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px; }
+    .comments .comHeader .label {
+      height: 100%;
+      width: 300px;
+      font-family: Arial;
+      font-size: 16px; }
+      .comments .comHeader .label h1 {
+        margin-top: 40px; }
+  .comments .commentDivider {
+    height: 2px;
+    background-color: #bebcba;
+    width: 90%;
+    margin: 0 auto; }
+  .comments textarea {
+    resize: none;
+    width: 70%;
+    margin-top: 20px;
+    height: 80px;
+    padding: 10px; }
+  .comments button {
+    height: 30px; }
+  .comments .theComments {
+    width: 70%;
+    min-height: 80px;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .comments .theComments .comment {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      max-width: 100%;
+      min-height: 70px;
+      border: 1px solid dimgray;
+      background-color: #bebcba;
+      font-family: arial;
+      margin: 5px; }
+      .comments .theComments .comment .poster {
+        font-weight: bolder;
+        font-size: 18px;
+        padding: 7px 0px 0px 7px; }
+      .comments .theComments .comment .getInLine {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-top: 30px;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly; }
+        .comments .theComments .comment .getInLine .commentContent {
+          font-style: italic;
+          margin-top: 10px; }
+      .comments .theComments .comment .timestamp {
+        margin-left: 30px;
+        font-size: 10px;
+        text-align: right;
+        padding: 5px 5px 0px 0px;
+        min-width: 100px; }
